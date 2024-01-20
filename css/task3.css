@@ -1,0 +1,46 @@
+body {
+    background-color: #eeeded;
+    margin-top: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #fed601;
+    color: black;
+    padding: 10px;
+    font-weight:bold;
+    border-radius: 10px;
+    border: 2px solid #c1b46e;
+    border-bottom: 4px solid black;
+    box-shadow: 5px 5px 10px black;
+    transition-duration: 0.1s;
+}
+
+.link-button:hover {
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    background-color: #c1b46e;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper_ball {
+    background-color: #ffffff;
+}
+
+.wrapper_ball div {
+    margin-left: 47%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+}
+
+
